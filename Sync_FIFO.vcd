@@ -1,0 +1,195 @@
+$date
+	Sat Jun 21 12:38:06 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench $end
+$var wire 8 ! rd_data [7:0] $end
+$var wire 1 " full $end
+$var wire 1 # empty $end
+$var reg 1 $ clk $end
+$var reg 1 % rd_en $end
+$var reg 1 & reset $end
+$var reg 8 ' wr_data [7:0] $end
+$var reg 1 ( wr_en $end
+$scope module FIFO $end
+$var wire 1 $ clk $end
+$var wire 1 % rd_en $end
+$var wire 1 & reset $end
+$var wire 8 ) wr_data [7:0] $end
+$var wire 1 ( wr_en $end
+$var wire 1 " full $end
+$var wire 1 # empty $end
+$var reg 7 * count [6:0] $end
+$var reg 8 + rd_data [7:0] $end
+$var reg 7 , rd_ptr [6:0] $end
+$var reg 7 - wr_ptr [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx -
+bx ,
+bx +
+bx *
+bx )
+x(
+bx '
+1&
+x%
+0$
+x#
+x"
+bx !
+$end
+#5
+0"
+1#
+b0 *
+b0 !
+b0 +
+b0 ,
+b0 -
+1$
+#10
+0$
+#12
+b10010001 '
+b10010001 )
+1(
+0&
+#15
+b1 -
+0#
+b1 *
+1$
+#20
+0$
+#21
+b1011011 '
+b1011011 )
+#25
+b10 *
+b10 -
+1$
+#30
+0$
+b11111011 '
+b11111011 )
+#35
+b11 -
+b11 *
+1$
+#40
+0$
+#44
+1%
+0(
+#45
+b10 *
+b10010001 !
+b10010001 +
+b1 ,
+1$
+#50
+0$
+#55
+b10 ,
+b1011011 !
+b1011011 +
+b1 *
+1$
+#60
+0$
+#65
+1#
+b0 *
+b11111011 !
+b11111011 +
+b11 ,
+1$
+#70
+0$
+#75
+1$
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
+#100
+0$
+#105
+1$
+#110
+0$
+#115
+1$
+#120
+0$
+#125
+1$
+#130
+0$
+#135
+1$
+#140
+0$
+#145
+1$
+#150
+0$
+#155
+1$
+#160
+0$
+#165
+1$
+#170
+0$
+#175
+1$
+#180
+0$
+#185
+1$
+#190
+0$
+#195
+1$
+#200
+0$
+#205
+1$
+#210
+0$
+#215
+1$
+#220
+0$
+#225
+1$
+#230
+0$
+#235
+1$
+#240
+0$
+#245
+1$
+#250
+0$
+#255
+1$
+#256
